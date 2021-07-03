@@ -1,0 +1,77 @@
+html{
+    font-size: 10px;
+}
+body{
+    font-size: 1.6rem;
+    margin: 0;
+}
+header{
+    background-color: #bbb;
+}
+.header-content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.header-content nav li{
+    display: inline;
+    margin: 0 0 0 1.5rem;
+}
+.header-content nav a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    font-size: 2.2rem;
+}
+.header-content nav a:hover{
+    color: #C78C19;
+    text-decoration: underline;
+}
+.main-title{
+    padding-left: 2rem;
+}
+.project{
+    background-color: #CCC;
+    padding: 2rem;
+    text-align: center;
+}
+.title{
+    text-align: center;
+}
+#banner{
+    width: 100%;
+}
+#mission{
+    font-size: 2rem;
+}
+#mission strong{
+    color: #FF0000;
+}
+.itens{
+    font-style: italic;
+}
+.advantage{
+    background-color: #fff;
+    padding: 2rem;
+}
+.advantage ul{
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-left: 20%;
+}
+.profits{
+    width: 50%;
+}
+.footer-content{
+    background: url(./img/bg.jpg);
+    text-align: center;
+    padding: 4rem 0;
+}
+.footer-content p{
+    color: #fff;
+    font-size: 1.3rem;
+    margin: 2rem 0 0 0;
+}
