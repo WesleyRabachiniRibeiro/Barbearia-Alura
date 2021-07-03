@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produtos - Barbearia Alura</title>
+    <link rel="stylesheet" href="styleContact.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="header-content">
+                <h1><img src="./img/logo.png" alt="logo"></h1>
+                <nav>
+                    <ul>
+                        <li><a href="./Index.html">Home</a></li>
+                        <li><a href="./product.html">Produtos</a></li>
+                        <li><a href="./contact.html">Contato</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <section>
+                <div class="section-content">
+                    <form action="">
+                        <label for="name">Nome e sobrenome</label>
+                        <input type="text" id="name" class="default-input" required>
+
+                        <label for="email">Email</label>
+                        <input type="email" id="email" class="default-input" placeholder="email@dominio.com" required>    
+
+                        <label for="tel">Telefone</label>
+                        <input type="tel" id="tel" class="default-input" placeholder="(XX) XXXXX-XXXX" required>
+
+                        <label for="text-user">Mensagem</label>
+                        <textarea id="text-user" cols="70" rows="10" class="default-input" required></textarea>  
+
+                        <fieldset>
+                            <legend>Como prefere o nosso contato?</legend>
+                            <label for="radio-email"><input type="radio" name="contato" id="radio-email" value="email">Email</label>
+                            
+                            <label for="radio-telph"><input type="radio" name="contato" id="radio-telph" value="telph">Telefone</label>
+                            
+                            <label for="radio-whats"><input type="radio" name="contato" id="radio-whats" value="WhatsApp" checked>WhatsApp</label>
+                            
+                        </fieldset>
+                        <fieldset>
+                            <legend>Qual horário preferi ser atendido?</legend>
+                            <select class="selected">
+                                <option value="">Manhã</option>
+                                <option value="">Tarde</option>
+                                <option value="">Noite</option>
+                            </select>
+                        </fieldset>
+                        <label for=""><input type="checkbox" class="checkbox" checked>Gostaria de receber nossas novidades por email?</label>
+
+                        
+                        <input type="submit" value="Enviar Formulário" class="submited"> 
+             
+                    </form>
+                    <table>
+                        <thead>
+                            <tr>
+                                <td>Dia</td>
+                                <td>Horário</td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Segunda</td>
+                                <td>8h - 20h</td>
+                            </tr>
+                            <tr>
+                                <td>Quarta</td>
+                                <td>8h - 20h</td>
+                            </tr>
+                            <tr>
+                                <td>Sexta</td>
+                                <td>8h - 20h</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <div class="footer-content">
+                <img src="./img/logo-branco.png" alt="white-logo">
+                <p>&copy; Copyright Barbearia Alura - 2021</p>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
