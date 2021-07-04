@@ -51,9 +51,9 @@ header{
     margin: 0 1.5%;
     padding: 30px 20px;
     box-sizing: border-box;
-
     border: 2px solid black;
     border-radius: 10px;
+    transition: 0.5s;
 }
 .section-container li:hover{
     border-color: #C78C19;
@@ -86,4 +86,51 @@ header{
     color: #fff;
     font-size: 1.3rem;
     margin: 2rem 0 0 0;
+}
+@media(min-width:769px) and (max-width:1024px){
+    .section-container{
+        height: 43.8vh;
+    }
+}
+@media(min-width:481px) and (max-width:768px){
+    .header-content, .project, .section-container, .section-container li {
+        width: auto;
+    }
+    .header-content h1 {
+        text-align: center;
+    }
+    .header-content nav {
+        position: static;
+        text-align: center;
+    }
+    .header-content nav a{
+        font-size: 1.6rem;
+    }
+    .section-container li {
+        list-style: none;
+        display: block;
+        box-sizing: initial;
+        margin-bottom: 10px;
+    }
+}
+@media(max-width: 480px) {
+    .header-content, .project, .section-container, .section-container li {
+        width: auto;
+    }
+    .header-content h1 {
+        text-align: center;
+    }
+    .header-content nav {
+        position: static;
+        text-align: center;
+    }
+    .header-content nav a{
+        font-size: 1.6rem;
+    }
+    .section-container li {
+        list-style: none;
+        display: block;
+        box-sizing: initial;
+        margin-bottom: 10px;
+    }
 }

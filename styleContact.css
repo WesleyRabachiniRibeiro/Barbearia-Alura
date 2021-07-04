@@ -9,6 +9,7 @@ html{
 }
 body{
     font-size: 1.6rem;
+    box-sizing: border-box;
 }
 header{
     background-color: #bbb;
@@ -85,7 +86,7 @@ header{
     margin-bottom: 1rem;
 }
 .submited:active{
-    transform: rotate(720deg) scale(1.2);
+    transform: rotate(360deg) scale(1.2);
 }
 table{
     margin: 2rem 0 4rem;
@@ -109,4 +110,52 @@ td, th{
     color: #fff;
     font-size: 1.3rem;
     margin: 2rem 0 0 0;
+}
+@media(min-width:481px) and (max-width:768px){
+    .header-content, .project, .section-content {
+        width: auto;
+    }
+    .header-content h1 {
+        text-align: center;
+    }
+    .header-content nav {
+        position: static;
+        text-align: center;
+    }
+    .header-content nav a{
+        font-size: 1.6rem;
+    }
+    .section-content{
+        margin: 5px;
+    }
+    .default-input{
+        width: 80%;
+    }
+    .submited{
+        width: 80%;
+    }
+}
+@media(max-width: 480px) {
+    .header-content, .project, .section-content {
+        width: auto;
+    }
+    .header-content h1 {
+        text-align: center;
+    }
+    .header-content nav {
+        position: static;
+        text-align: center;
+    }
+    .header-content nav a{
+        font-size: 1.6rem;
+    }
+    .section-content{
+        margin: 5px;
+    }
+    .default-input{
+        width: 80%;
+    }
+    .submited{
+        width: 80%;
+    }
 }
