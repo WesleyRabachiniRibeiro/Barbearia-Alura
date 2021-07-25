@@ -86,7 +86,7 @@ header{
     margin-bottom: 1rem;
 }
 .submited:active{
-    transform: rotate(360deg) scale(1.2);
+    transform: rotate(2deg) scale(1.2);
 }
 table{
     margin: 2rem 0 4rem;
